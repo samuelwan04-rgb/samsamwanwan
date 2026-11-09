@@ -5,7 +5,7 @@ Owner: Samuel Wan (Singapore, Mac user, **beginner coder**; a more experienced f
 ## 1. What this is
 Casual photo/video portfolio for occasional paid enquiries (events, personal/couples, product). Static single-page site: plain HTML/CSS/JS in one `index.html`. **No framework, no build step.** Live at https://samsamwanwan.com.
 
-Also on the same site: a "Need a website / portfolio?" section advertising Samuel's web-dev work ($500 websites, $350 portfolios).
+Also on the same site: a "Need a website / portfolio?" section advertising Samuel's web-dev work ($500 websites, $300 portfolios).
 
 ## 2. Hosting and deploy (GitHub Pages)
 - Repo: `samuelwan04-rgb/samsamwanwan`, branch `main`, folder `/ (root)`. Pages source = "Deploy from a branch". Public repo (required for free Pages).
@@ -50,7 +50,7 @@ Main videos: `brand-new-day-coretone.mp4`, `firstcook.mp4`, `koreavlog.mp4`, `ri
 
 ## 7. Content facts
 - Tagline: "Your friendly neighbourhood photo guy. I do events, products and photoshoots. Wanna chat? :)"
-- Rates: Photoshoot 2h **$75** (+$25 for edits within 4h). Event 4h **$250** (edits within 18h). Product: "Let's chat!". Websites **from $500**, portfolios **from $350**, extra features cost extra. Custom domain is a yearly fee: client buys/renews themselves, or Samuel handles it for a monthly / 3-monthly / 6-monthly retainer.
+- Rates: Couples/Personal photoshoot 2h **$100**. Concert 2 sets x 45 min **$200**. Event 4h **$300** (edits within 18h). Product and Video: "Let's chat!". Websites **from $500**, portfolios **from $300** (+ about $25 per 6 months for small later updates), extra features cost extra. Custom domain is a yearly fee: client buys/renews themselves, or Samuel handles it for a monthly / 3-monthly / 6-monthly retainer.
 - Contact: samuelwan04@gmail.com, WhatsApp +65 9625 8955 (wa.me/6596258955), Instagram @samsamwanwan. Footer "(c) YEAR SAMUEL. / SINGAPORE".
 - Client/own sites shown in the Websites section (all still on Netlify/GitHub URLs, update the links when each moves): Luna Voce (lunavoce.netlify.app), SmartHouzz (smarthouzz.netlify.app), Dean's Art & Animation (deansartanimation.netlify.app), Midiator (samuelwan04-rgb.github.io/midiator), Core Tone Singapore concept (coretonesg.netlify.app), and this site.
 - Web business model for client sites: A = client owns everything; **B = client owns domain, Samuel hosts (recommended)**; C = Samuel manages everything. A signable "Website Build Agreement" Claude Doc exists: https://claude.ai/artifact/UnebnbEECJ2iSrGAtmfBKs

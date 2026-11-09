@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Samuel. — Photo &amp; Video, Singapore</title><link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="description" content="Photographer and videographer in Singapore. Events, products and photoshoots.">
+<meta property="og:title" content="Samuel. — Photo &amp; Video, Singapore">
+<meta property="og:description" content="Event, personal &amp; couples, and product photography, plus video.">
+<meta property="og:type" content="website"><meta property="og:url" content="https://samsamwanwan.com/"><meta property="og:site_name" content="Samuel."><meta property="og:image" content="https://samsamwanwan.com/img/jwe03182.jpg"><meta property="og:image:width" content="1800"><meta property="og:image:height" content="1200"><meta property="og:image:alt" content="Portrait from a couples shoot in Singapore"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#0b0a09"><link rel="canonical" href="https://samsamwanwan.com/"><script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Samuel. Photo & Video","url":"https://samsamwanwan.com/","image":"https://samsamwanwan.com/img/jwe03182.jpg","areaServed":"Singapore","description":"Photographer and videographer in Singapore. Events, products and photoshoots.","sameAs":["https://instagram.com/samsamwanwan"]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#0b0a09;--ink:#f1ebe2;--mute:#b3aa9b;--line:#ffffff22;--amber:#e0a458;--soft:#d9d0c2;--soft2:#cfc6b8;--panel:#0b0a09d9;--serif:'Fraunces',Georgia,serif;--sans:'Inter',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-weight:300;line-height:1.6;-webkit-font-smoothing:antialiased}
+img,video{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+a:focus-visible,button:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+/* fixed video background lives behind everything */
+.bgvid{position:fixed;inset:0;z-index:0;overflow:hidden;background:#000}
+.bgvid video{position:absolute;left:0;top:-6%;width:100%;height:112%;object-fit:cover;opacity:0;transition:opacity 1.4s ease}
+.bgvid video.on{opacity:1}
+.bgvid video{transform:translate3d(0,var(--by,0px),0);will-change:transform}
+.veil{position:fixed;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,#0b0a09b8,#0b0a09c8)}
+main{position:relative;z-index:2}
+.nav{position:fixed;inset:0 0 auto 0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:18px 28px;background:linear-gradient(#0b0a09cc,#0b0a0900)}
+.skip{position:fixed;left:12px;top:-60px;z-index:200;background:var(--amber);color:#0b0a09;padding:10px 16px;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;transition:top .2s}.skip:focus{top:12px}
+.logo{font-family:var(--serif);font-size:1.45rem}.logo span{color:var(--amber)}
+.nav ul{display:flex;gap:26px;list-style:none;font-size:.76rem;letter-spacing:.16em;text-transform:uppercase}
+.nav ul a{opacity:.85;display:inline-block;padding:14px 4px;margin:-14px -4px}.nav ul a:hover{opacity:1;color:var(--amber)}
+/* doors hero: opaque, covers video */
+.hero{position:relative;height:100svh;min-height:560px;background:var(--bg);overflow:hidden}
+.doors{position:absolute;inset:0;display:flex}
+.door{position:relative;flex:1;overflow:hidden;border-left:1px solid #000;transition:flex .6s cubic-bezier(.2,.7,.2,1)}
+.door:first-child{border-left:0}
+@media(hover:hover){.door:hover,.door:focus-visible{flex:1.7}}
+.door.open{flex:3.2;touch-action:manipulation}
+.door{touch-action:manipulation;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}
+.door img{pointer-events:none}
+.door img{position:absolute;left:0;top:-22%;width:100%;height:144%;will-change:transform;object-fit:cover;filter:brightness(.4) saturate(.85);transition:filter .6s}
+@media(hover:hover){.door:hover img,.door:focus-visible img{filter:brightness(.92) saturate(1.05)}}
+.door.open img{filter:brightness(.92) saturate(1.05)}
+.door b{position:absolute;left:26px;bottom:11vh;z-index:2;font-family:var(--serif);font-weight:300;font-size:clamp(1.9rem,4vw,3.2rem)}
+.door small{position:absolute;left:28px;bottom:calc(11vh - 28px);z-index:2;font-size:.7rem;letter-spacing:.24em;text-transform:uppercase;color:var(--amber)}
+.hshade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,#0b0a09d0,#0b0a0900 50%)}
+.hcopy{will-change:transform,opacity;position:absolute;left:28px;top:17vh;z-index:5;pointer-events:none;max-width:700px}
+.eyebrow{font-size:.74rem;letter-spacing:.28em;text-transform:uppercase;color:var(--amber);margin-bottom:14px}
+h1{font-family:var(--serif);font-weight:300;font-size:clamp(3.4rem,11vw,8rem);line-height:.95;letter-spacing:-.02em}
+h1 em{color:var(--amber);font-style:normal}
+.tag{font-family:var(--serif);font-style:italic;font-size:clamp(1.05rem,2.2vw,1.45rem);color:var(--soft);margin-top:18px;max-width:34ch;line-height:1.5}
+.cue{position:absolute;z-index:5;left:50%;bottom:22px;transform:translateX(-50%);font-size:.68rem;letter-spacing:.3em;text-transform:uppercase;color:var(--mute);display:flex;flex-direction:column;align-items:center;gap:8px;pointer-events:none}
+.cue i{width:1px;height:28px;background:var(--amber);animation:cue 1.8s ease-in-out infinite}
+@keyframes cue{0%,100%{transform:scaleY(.3);transform-origin:top}50%{transform:scaleY(1)}}
+.js .row{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+.js .row.in{opacity:1;transform:none}
+/* content over video */
+section.c{padding:clamp(70px,10vw,130px) 28px 20px}
+.wrap{max-width:1240px;margin:0 auto}
+.kicker{font-size:.72rem;letter-spacing:.28em;text-transform:uppercase;color:var(--amber);margin-bottom:10px}
+h2{font-family:var(--serif);font-weight:300;font-size:clamp(2rem,5vw,3.4rem);line-height:1.1;margin-bottom:26px;text-shadow:0 2px 24px #000a}
+.chead{position:sticky;top:64px;z-index:1}
+.chead h2{margin-bottom:22px}
+.rows{position:relative;z-index:2;display:flex;flex-direction:column;gap:10px}
+.row{display:flex;gap:10px}
+.ph{cursor:pointer;-webkit-tap-highlight-color:transparent;border:0;padding:0;background:#000;overflow:hidden;display:block;flex:var(--a) 1 0;min-width:0;box-shadow:0 10px 40px #0008}
+.ph img{width:100%;height:auto;aspect-ratio:var(--a);object-fit:cover;transform:scale(1.16)}
+.ratelist{max-width:760px;border-top:1px solid var(--line)}
+.rate{display:grid;grid-template-columns:1fr auto;gap:4px 24px;padding:24px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.rate h3{font-family:var(--serif);font-weight:300;font-size:clamp(1.3rem,3vw,1.8rem)}
+.rate .price{font-family:var(--serif);color:var(--amber);font-size:clamp(1.4rem,3.2vw,2.1rem);grid-row:1/3;grid-column:2;align-self:center}
+.rate p{color:var(--mute);font-size:.95rem}
+.contact{text-align:center;padding-bottom:110px}
+.contact h2{max-width:20ch;margin-inline:auto;text-wrap:balance}
+.contact p{color:var(--mute);margin:0 auto 28px;max-width:44ch}
+.btn{display:inline-block;padding:15px 26px;min-height:44px;border:1px solid var(--amber);color:var(--amber);font-size:.76rem;letter-spacing:.18em;text-transform:uppercase;margin:0 4px 8px}
+.btn.solid{background:var(--amber);color:#0b0a09}
+.note{display:none;position:fixed;left:50%;transform:translateX(-50%);bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:50;background:#0b0a09ee;border:1px solid var(--line);padding:8px 14px;border-radius:999px;font-size:.72rem;color:var(--mute);max-width:calc(100vw - 24px);text-align:center}
+@media(max-width:800px){
+  .note{display:none}
+  .doors{top:34%}
+  .nav{padding:14px 18px}.nav ul{gap:14px}.nav ul li:nth-child(-n+5){display:none}
+  .doors{flex-direction:column}.door{border-left:0;border-top:1px solid #000}.door:first-child{border-top:0}
+  .door b{bottom:16px;left:20px;font-size:1.8rem}.door small{display:none}
+  .hcopy{left:18px;right:18px;top:12vh}.hcopy .tag{font-size:.92rem;max-width:none;margin-top:10px;line-height:1.45}
+  section.c{padding-inline:16px}
+  .rows{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}.row{display:contents}
+  .ph{flex:none;aspect-ratio:1;box-shadow:none}.ph img{height:100%;aspect-ratio:auto;transform:scale(1.2)}
+  .js .ph{opacity:0;transform:scale(.94);transition:opacity .6s ease,transform .6s cubic-bezier(.2,.7,.2,1)}
+  .js .ph.in{opacity:1;transform:none}
+  .js .ph:nth-child(2){transition-delay:.07s}.js .ph:nth-child(3){transition-delay:.14s}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.cue i{animation:none}.ph img{transform:none}}
+
+/* photo viewer: swipe through a category, like opening a post */
+.vw{position:fixed;inset:0;z-index:100;background:#050403;display:none;flex-direction:column;opacity:0;transition:opacity .25s ease}
+.vw.open{display:flex}.vw.show{opacity:1}
+.vwtop{display:flex;align-items:center;justify-content:space-between;padding:max(12px,env(safe-area-inset-top,0px)) 16px 12px;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase}
+.vwtop b{font-family:var(--serif);font-weight:400;font-size:1.05rem;letter-spacing:.02em;text-transform:none}
+.vwtop span{color:var(--mute);font-variant-numeric:tabular-nums}
+.vwx{background:none;border:0;color:var(--ink);font-size:1.9rem;line-height:1;padding:6px 10px;cursor:pointer}
+.vwtrack{flex:1;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;overscroll-behavior:contain}
+.vwtrack::-webkit-scrollbar{display:none}
+.vwslide{flex:0 0 100%;scroll-snap-align:center;display:flex;align-items:center;justify-content:center;padding:0 0 6px}
+.vwslide img{max-width:100%;max-height:100%;object-fit:contain;transform:scale(.94);transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+.vw.show .vwslide img{transform:none}
+.vwdots{display:flex;justify-content:center;gap:6px;padding:12px 16px max(16px,env(safe-area-inset-bottom,0px))}
+.vwdots i{width:6px;height:6px;border-radius:50%;background:#ffffff33}.vwdots i.on{background:var(--amber)}
+.vwnav{position:absolute;top:50%;transform:translateY(-50%);background:#0b0a09aa;border:1px solid var(--line);color:var(--ink);width:44px;height:44px;border-radius:50%;font-size:1.4rem;cursor:pointer}
+.vwnav.p{left:14px}.vwnav.n{right:14px}
+@media(max-width:800px){.vwnav{display:none}}
+body.lock{overflow:hidden}
+
+.lede{color:var(--mute);max-width:56ch;margin:-12px 0 30px;text-shadow:0 1px 12px #000a}
+.videos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));gap:26px;position:relative;z-index:2}
+.vid{margin:0}.vid video{width:100%;aspect-ratio:16/9;background:#000;object-fit:contain;border:1px solid var(--line)}
+.vid figcaption{margin-top:12px;font-family:var(--serif);font-size:1.15rem}
+.vid figcaption small{display:block;font-family:var(--sans);color:var(--mute);font-size:.82rem;margin-top:2px}
+.direct{margin:26px auto 0 !important;max-width:none !important;font-size:.85rem;letter-spacing:.04em;color:var(--mute);user-select:all}
+.links{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+footer{position:relative;z-index:2;padding:30px 28px;border-top:1px solid var(--line);text-align:center;color:var(--mute);font-size:.78rem;letter-spacing:.12em;background:#0b0a09cc}
+
+.bgpause{position:fixed;right:14px;bottom:max(14px,env(safe-area-inset-bottom,0px));z-index:30;min-width:44px;height:44px;border-radius:999px;border:1px solid var(--line);background:#0b0a09cc;color:var(--ink);font:inherit;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;padding:0 16px;cursor:pointer;display:none}
+.bgpause.show{display:block}
+body.lock .bgpause{display:none}
+/* websites section */
+.webs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:12px;position:relative;z-index:2;margin-bottom:44px}
+.web{display:flex;flex-direction:column;gap:6px;padding:20px 22px;background:var(--panel);border:1px solid var(--line);transition:border-color .25s,transform .25s}
+.web:hover,.web:focus-visible{border-color:var(--amber);transform:translateY(-3px)}
+.web b{font-family:var(--serif);font-weight:400;font-size:1.3rem;display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+.web b i{font-style:normal;font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--mute);border:1px solid var(--line);padding:2px 8px;white-space:nowrap}
+.web p{color:var(--soft2);font-size:.92rem}
+.web small{color:var(--amber);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;margin-top:auto;padding-top:8px}
+.webprice{position:relative;z-index:2;background:var(--panel);padding:6px 22px 2px;max-width:760px}
+.webnote{position:relative;z-index:2;max-width:760px;margin-top:26px;color:var(--mute);font-size:.95rem;background:var(--panel);padding:18px 22px;border-left:2px solid var(--amber)}
+.webnote p{margin-bottom:10px}.webnote p:last-child{margin-bottom:0}
+.webnote b{color:var(--ink);font-weight:400}
+</style>
+</head>
+<body>
+
+
+<div class="bgvid" id="bgwrap"><video id="bgA" class="on" muted playsinline preload="auto" poster="videos/brand-new-day-coretone.jpg"></video><video id="bgB" muted playsinline preload="auto"></video></div>
+<div class="veil"></div>
+
+<a class="skip" href="#events">Skip to photos</a>
+<nav class="nav" aria-label="Main"><a class="logo" href="#top">Samuel<span>.</span></a><ul><li><a href="#events">Events</a></li><li><a href="#personal">Personal</a></li><li><a href="#product">Product</a></li><li><a href="#broll">B-roll</a></li><li><a href="#reel">Video</a></li><li><a href="#rates">Rates</a></li><li><a href="#websites">Websites</a></li><li><a href="#contact">Enquire</a></li></ul></nav>
+
+<main id="top">
+  <header class="hero">
+    <div class="doors">
+      <a class="door" href="#events"><img src="img/sports-maroon.jpg" alt=""><small>Enter</small><b>Events</b></a>
+      <a class="door" href="#personal"><img src="img/jwe03182.jpg" alt=""><small>Enter</small><b>Personal</b></a>
+      <a class="door" href="#product"><img src="img/jwe03141.jpg" alt=""><small>Enter</small><b>Product</b></a>
+    </div>
+    <div class="hshade"></div>
+    <div class="hcopy"><div class="eyebrow">Photographer &amp; Videographer</div><h1>Samuel<em>.</em></h1><p class="tag">Your friendly neighbourhood photo guy. I do events, products and photoshoots. Wanna chat? :)</p></div>
+    <div class="cue"><span>Scroll</span><i></i></div>
+  </header>
+
+  <section class="c" id="events"><div class="wrap"><div class="chead"><div class="kicker">01</div><h2>Events</h2></div><div class="rows"><div class="row"><button class="ph" style="--a:1.777"><img loading="lazy" src="img/jwe03877.jpg" srcset="img/t/jwe03877.jpg 800w, img/jwe03877.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1013" alt="Events photo 1"></button><button class="ph" style="--a:1.777"><img loading="lazy" src="img/jwe03802.jpg" srcset="img/t/jwe03802.jpg 800w, img/jwe03802.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1013" alt="Events photo 2"></button></div><div class="row"><button class="ph" style="--a:1.777"><img loading="lazy" src="img/sports-maroon.jpg" srcset="img/t/sports-maroon.jpg 800w, img/sports-maroon.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1013" alt="Events photo 3"></button><button class="ph" style="--a:1.777"><img loading="lazy" src="img/sports-relay.jpg" srcset="img/t/sports-relay.jpg 800w, img/sports-relay.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1013" alt="Events photo 4"></button><button class="ph" style="--a:1.777"><img loading="lazy" src="img/sports-airforce.jpg" srcset="img/t/sports-airforce.jpg 800w, img/sports-airforce.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1013" alt="Events photo 5"></button></div><div class="row"><button class="ph" style="--a:0.563"><img loading="lazy" src="img/jwe03034.jpg" srcset="img/t/jwe03034.jpg 800w, img/jwe03034.jpg 1013w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1013" height="1800" alt="Events photo 6"></button><button class="ph" style="--a:1.777"><img loading="lazy" src="img/jwe03019.jpg" srcset="img/t/jwe03019.jpg 800w, img/jwe03019.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1013" alt="Events photo 7"></button></div><div class="row"><button class="ph" style="--a:1.727"><img loading="lazy" src="img/jwe03055.jpg" srcset="img/t/jwe03055.jpg 800w, img/jwe03055.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1042" alt="Events photo 8"></button><button class="ph" style="--a:1.777"><img loading="lazy" src="img/jwe03062.jpg" srcset="img/t/jwe03062.jpg 800w, img/jwe03062.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1013" alt="Events photo 9"></button></div><div class="row"><button class="ph" style="--a:1.777"><img loading="lazy" src="img/event-birthday.jpg" srcset="img/t/event-birthday.jpg 800w, img/event-birthday.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1013" alt="Events photo 10"></button><button class="ph" style="--a:1.777"><img loading="lazy" src="img/event-cards.jpg" srcset="img/t/event-cards.jpg 800w, img/event-cards.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1013" alt="Events photo 11"></button></div><div class="row"><button class="ph" style="--a:1.500"><img loading="lazy" src="img/event-peppa.jpg" srcset="img/t/event-peppa.jpg 800w, img/event-peppa.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1200" alt="Events photo 12"></button><button class="ph" style="--a:1.777"><img loading="lazy" src="img/bw-birthday.jpg" srcset="img/t/bw-birthday.jpg 800w, img/bw-birthday.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1013" alt="Events photo 13"></button></div></div></div></section>
+  <section class="c" id="personal"><div class="wrap"><div class="chead"><div class="kicker">02</div><h2>Personal &amp; Couples</h2></div><div class="rows"><div class="row"><button class="ph" style="--a:1.500"><img loading="lazy" src="img/jwe03167.jpg" srcset="img/t/jwe03167.jpg 800w, img/jwe03167.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1200" alt="Personal and couples photo 1"></button><button class="ph" style="--a:1.500"><img loading="lazy" src="img/jwe03182.jpg" srcset="img/t/jwe03182.jpg 800w, img/jwe03182.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1200" alt="Personal and couples photo 2"></button></div><div class="row"><button class="ph" style="--a:1.500"><img loading="lazy" src="img/bw-curtain.jpg" srcset="img/t/bw-curtain.jpg 800w, img/bw-curtain.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1200" alt="Personal and couples photo 3"></button><button class="ph" style="--a:1.500"><img loading="lazy" src="img/bw-cafe.jpg" srcset="img/t/bw-cafe.jpg 800w, img/bw-cafe.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1200" alt="Personal and couples photo 4"></button></div><div class="row"><button class="ph" style="--a:1.500"><img loading="lazy" src="img/bw-mirror-wide.jpg" srcset="img/t/bw-mirror-wide.jpg 800w, img/bw-mirror-wide.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1200" alt="Personal and couples photo 5"></button><button class="ph" style="--a:1.601"><img loading="lazy" src="img/bw-mirror-close.jpg" srcset="img/t/bw-mirror-close.jpg 800w, img/bw-mirror-close.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1124" alt="Personal and couples photo 6"></button></div><div class="row"><button class="ph" style="--a:1.789"><img loading="lazy" src="img/jwe02506.jpg" srcset="img/t/jwe02506.jpg 800w, img/jwe02506.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1006" alt="Personal and couples photo 7"></button><button class="ph" style="--a:1.500"><img loading="lazy" src="img/seoul-market.jpg" srcset="img/t/seoul-market.jpg 800w, img/seoul-market.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1200" alt="Personal and couples photo 8"></button></div><div class="row"><button class="ph" style="--a:1.333"><img loading="lazy" src="img/bw-watches.jpg" srcset="img/t/bw-watches.jpg 800w, img/bw-watches.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1350" alt="Personal and couples photo 9"></button></div><div class="row"><button class="ph" style="--a:1.777"><img loading="lazy" src="img/jwe03394.jpg" srcset="img/t/jwe03394.jpg 800w, img/jwe03394.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1013" alt="Personal and couples photo 10"></button></div></div></div></section>
+  <section class="c" id="product"><div class="wrap"><div class="chead"><div class="kicker">03</div><h2>Product</h2></div><div class="rows"><div class="row"><button class="ph" style="--a:1.777"><img loading="lazy" src="img/jwe03141.jpg" srcset="img/t/jwe03141.jpg 800w, img/jwe03141.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1013" alt="Product photo 1"></button><button class="ph" style="--a:0.562"><img loading="lazy" src="img/jwe03148.jpg" srcset="img/t/jwe03148.jpg 800w, img/jwe03148.jpg 1012w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1012" height="1800" alt="Product photo 2"></button></div><div class="row"><button class="ph" style="--a:0.562"><img loading="lazy" src="img/jwe03150.jpg" srcset="img/t/jwe03150.jpg 800w, img/jwe03150.jpg 1012w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1012" height="1800" alt="Product photo 3"></button><button class="ph" style="--a:1.777"><img loading="lazy" src="img/jwe03147.jpg" srcset="img/t/jwe03147.jpg 800w, img/jwe03147.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1013" alt="Product photo 4"></button><button class="ph" style="--a:2.347"><img loading="lazy" src="img/jwe03146.jpg" srcset="img/t/jwe03146.jpg 800w, img/jwe03146.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="767" alt="Product photo 5"></button></div><div class="row"><button class="ph" style="--a:1.777"><img loading="lazy" src="img/jwe03481.jpg" srcset="img/t/jwe03481.jpg 800w, img/jwe03481.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1013" alt="Product photo 6"></button><button class="ph" style="--a:1.777"><img loading="lazy" src="img/jwe03486.jpg" srcset="img/t/jwe03486.jpg 800w, img/jwe03486.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1013" alt="Product photo 7"></button></div><div class="row"><button class="ph" style="--a:1.500"><img loading="lazy" src="img/prod-qc-box.jpg" srcset="img/t/prod-qc-box.jpg 800w, img/prod-qc-box.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1200" alt="Product photo 8"></button><button class="ph" style="--a:1.500"><img loading="lazy" src="img/prod-qc-angle.jpg" srcset="img/t/prod-qc-angle.jpg 800w, img/prod-qc-angle.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1200" alt="Product photo 9"></button></div><div class="row"><button class="ph" style="--a:1.500"><img loading="lazy" src="img/prod-qc-volume.jpg" srcset="img/t/prod-qc-volume.jpg 800w, img/prod-qc-volume.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1200" alt="Product photo 10"></button><button class="ph" style="--a:1.500"><img loading="lazy" src="img/prod-qc-corner.jpg" srcset="img/t/prod-qc-corner.jpg 800w, img/prod-qc-corner.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1200" alt="Product photo 11"></button><button class="ph" style="--a:1.500"><img loading="lazy" src="img/prod-qc-buttons.jpg" srcset="img/t/prod-qc-buttons.jpg 800w, img/prod-qc-buttons.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="1200" alt="Product photo 12"></button></div></div></div></section>
+  <section class="c" id="broll"><div class="wrap"><div class="chead"><div class="kicker">04</div><h2>B-roll</h2></div><div class="rows"><div class="row"><button class="ph" style="--a:2.140"><img loading="lazy" src="img/jwe02588.jpg" srcset="img/t/jwe02588.jpg 800w, img/jwe02588.jpg 1800w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1800" height="841" alt="B-roll photo 1"></button><button class="ph" style="--a:0.506"><img loading="lazy" src="img/seoul-insadong.jpg" srcset="img/t/seoul-insadong.jpg 800w, img/seoul-insadong.jpg 911w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="911" height="1800" alt="B-roll photo 2"></button></div><div class="row"><button class="ph" style="--a:0.911"><img loading="lazy" src="img/jwe02953.jpg" srcset="img/t/jwe02953.jpg 800w, img/jwe02953.jpg 1639w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="1639" height="1800" alt="B-roll photo 3"></button><button class="ph" style="--a:0.544"><img loading="lazy" src="img/jwe02954.jpg" srcset="img/t/jwe02954.jpg 800w, img/jwe02954.jpg 980w" sizes="(max-width:800px) 34vw, (max-width:1240px) 45vw, 560px" width="980" height="1800" alt="B-roll photo 4"></button></div></div></div></section>
+  <!--REEL--><section class="c" id="reel"><div class="wrap"><div class="kicker">Motion</div><h2>Video.</h2><p class="lede">A few projects. Press play.</p><div class="videos"><figure class="vid"><video controls playsinline preload="none" poster="videos/brand-new-day-coretone.jpg" src="videos/brand-new-day-coretone.mp4"></video><figcaption>If Peter Parker needed to fix his guitar...</figcaption></figure><figure class="vid"><video controls playsinline preload="none" poster="videos/firstcook.jpg" src="videos/firstcook.mp4"></video><figcaption>Our first cook in my renovated kitchen!</figcaption></figure><figure class="vid"><video controls playsinline preload="none" poster="videos/rinis-21.jpg" src="videos/rinis-21.mp4"></video><figcaption>Rinis's 21st</figcaption></figure><figure class="vid"><video controls playsinline preload="none" poster="videos/koreavlog.jpg" src="videos/koreavlog.mp4"></video><figcaption>KOREA 2026 VLOGGG</figcaption></figure></div></div></section><!--/REEL-->
+  <section class="c" id="rates"><div class="wrap"><div class="kicker">Rough rates</div><h2>What it costs.</h2>
+    <div class="ratelist">
+      <div class="rate"><h3>Photoshoot, 2 hours</h3><span class="price">$75</span><p>Add $25 if you want your edits back within 4 hours.</p></div>
+      <div class="rate"><h3>Event, 4 hours</h3><span class="price">$250</span><p>Edited photos back within 18 hours.</p></div>
+      <div class="rate"><h3>Product photography</h3><span class="price">Let's chat!</span><p>Every product is different, so let's talk it through.</p></div>
+    </div></div></section>
+  <section class="c" id="websites"><div class="wrap"><div class="kicker">Websites</div><h2>Need a website / portfolio?</h2>
+    <p class="lede">I build these too. Here's some of what I've made so far.</p>
+    <div class="webs"><a class="web" href="https://lunavoce.netlify.app/" target="_blank" rel="noopener"><b>Luna Voce</b><p>Live jazz and soul band for weddings and events. Packages, a how-it-works guide, musician profiles, audio and video samples, and an enquiry form.</p><small>lunavoce.netlify.app &#8599;</small></a><a class="web" href="https://smarthouzz.netlify.app/" target="_blank" rel="noopener"><b>SmartHouzz</b><p>Interior design and build firm. Room-by-room home tours, material samples you can lift on hover, and a lighting control that changes how finishes look.</p><small>smarthouzz.netlify.app &#8599;</small></a><a class="web" href="https://deansartanimation.netlify.app/" target="_blank" rel="noopener"><b>Dean's Art &amp; Animation</b><p>A 3D animator's portfolio: reel, film title cards, client spots and looping motion tests.</p><small>deansartanimation.netlify.app &#8599;</small></a><a class="web" href="https://samuelwan04-rgb.github.io/midiator/" target="_blank" rel="noopener"><b>Midiator</b><p>Site for a free Mac app that sets up MIDI pedalboards for guitarists. Product page with app screenshots.</p><small>samuelwan04-rgb.github.io/midiator &#8599;</small></a><a class="web" href="https://coretonesg.netlify.app/" target="_blank" rel="noopener"><b>Core Tone Singapore<i>Concept</i></b><p>Concept site for a guitar luthier in Tampines: setups, repairs, custom builds and a showroom.</p><small>coretonesg.netlify.app &#8599;</small></a><a class="web" href="https://samsamwanwan.com/" target="_blank" rel="noopener"><b>Samuel.<i>This site</i></b><p>Photo and video portfolio, the one you're on right now.</p><small>samsamwanwan.com &#8599;</small></a></div>
+    <div class="ratelist webprice">
+      <div class="rate"><h3>Website</h3><span class="price">from $500</span><p>For a business, band, event or project. Pages, layout, mobile version, and putting it online.</p></div>
+      <div class="rate"><h3>Portfolio</h3><span class="price">from $350</span><p>For a photographer, artist or creative. Your work front and centre, looking good on a phone.</p></div>
+    </div>
+    <div class="webnote">
+      <p><b>Extra features cost extra.</b> Things like a booking or enquiry form, video, music players, animations or more pages get added on top of the base price. Tell me what you want and I'll give you a number.</p>
+      <p><b>Custom domain (like yourname.com).</b> This is a yearly fee. You can buy and renew it yourself, or I can handle it for you and you pay me a monthly, 3-monthly or 6-monthly retainer. We'll work out which suits you.</p>
+    </div>
+    <p style="margin-top:28px;position:relative;z-index:2"><a class="btn solid" href="#contact">Let's chat!</a></p>
+  </div></section>
+  <section class="c contact" id="contact"><div class="wrap"><div class="kicker">Enquire</div><h2>Got an event or shoot in mind? HMU!</h2><p>It'll take 30 seconds with no strings attached. No harm done :)</p>
+    <div class="links"><a class="btn solid" href="mailto:samuelwan04@gmail.com?subject=Enquiry%20from%20your%20portfolio">Email me</a><a class="btn" href="https://instagram.com/samsamwanwan" target="_blank" rel="noopener">Instagram</a><a class="btn" href="https://wa.me/6596258955" target="_blank" rel="noopener">WhatsApp</a></div><p class="direct">samuelwan04@gmail.com &nbsp;/&nbsp; +65 9625 8955 &nbsp;/&nbsp; @samsamwanwan</p></div></section>
+</main>
+<footer>© <span id="yr">2026</span> SAMUEL. / SINGAPORE</footer>
+
+<div class="vw" id="vw" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <div class="vwtop"><b id="vwt"></b><span id="vwc"></span><button class="vwx" id="vwx" aria-label="Close">&times;</button></div>
+  <div class="vwtrack" id="vwtrack"></div>
+  <button class="vwnav p" id="vwp" aria-label="Previous">&#8249;</button><button class="vwnav n" id="vwn" aria-label="Next">&#8250;</button>
+  <div class="vwdots" id="vwd"></div>
+</div>
+<script>
+// background playlist: plays each clip once, cross-fades to the next, then starts over
+var LIST=["videos/bg-coretone.mp4","videos/bg-rinis.mp4","videos/bg-firstcook.mp4","videos/bg-korea.mp4"];
+var userPaused=false;
+var saver=navigator.connection&&navigator.connection.saveData;
+if(saver)LIST=[];
+var A=document.getElementById('bgA'),B=document.getElementById('bgB'),cur=A,nxt=B,idx=0;
+var still=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+var phoneBg=window.innerWidth<=800;
+if(phoneBg&&LIST.length)LIST=LIST.map(function(u){return u.replace('videos/bg-','videos/m-bg-')});
+function play(v){var p=v.play();if(p&&p.catch)p.catch(function(){})}
+function load(v,i){v.src=LIST[i%LIST.length];v.load()}
+function swap(){
+  idx=(idx+1)%LIST.length;
+  play(nxt);
+  nxt.classList.add('on');cur.classList.remove('on');
+  var old=cur;cur=nxt;nxt=old;
+  setTimeout(function(){old.pause();load(old,idx+1)},1500);
+}
+function nextSingle(){
+  A.classList.remove('on');
+  setTimeout(function(){idx=(idx+1)%LIST.length;load(A,idx);play(A)},500);
+}
+if(LIST.length){
+  if(phoneBg){
+    // phones: one small video at a time (two big ones at once can make the phone give up)
+    A.addEventListener('ended',nextSingle);
+    A.addEventListener('playing',function(){A.classList.add('on')});
+    load(A,0);if(!still)play(A);
+  }else{
+    [A,B].forEach(function(v){v.addEventListener('ended',function(){if(v===cur)swap()})});
+    load(A,0);
+    A.addEventListener('playing',function once(){A.removeEventListener('playing',once);setTimeout(function(){load(B,1)},4000)});
+    if(!still)play(A);
+  }
+  // keep it going: if the browser pauses the background, nudge it
+  function nudge(){var v=cur;if(!still&&!userPaused&&v.paused&&!v.ended&&document.visibilityState==='visible')play(v)}
+  [A,B].forEach(function(v){['pause','stalled','suspend','waiting'].forEach(function(n){v.addEventListener(n,function(){setTimeout(nudge,400)})})});
+  setInterval(nudge,2500);
+  document.addEventListener('visibilitychange',nudge);
+  document.addEventListener('touchstart',nudge,{passive:true});
+  // pause control for the background video (accessibility)
+  var pb=document.createElement('button');pb.className='bgpause show';pb.type='button';
+  pb.setAttribute('aria-pressed','false');pb.setAttribute('aria-label','Pause background video');pb.textContent='Pause';
+  pb.addEventListener('click',function(){
+    userPaused=!userPaused;
+    if(userPaused){A.pause();B.pause()}else{play(cur)}
+    pb.textContent=userPaused?'Play':'Pause';pb.setAttribute('aria-pressed',String(userPaused));
+    pb.setAttribute('aria-label',userPaused?'Play background video':'Pause background video');
+  });
+  document.body.appendChild(pb);
+}
+document.getElementById('yr').textContent=new Date().getFullYear();
+
+// layered scroll: hero layers drift at different speeds, photos shift inside their frames, rows rise in
+if(!still){
+  document.documentElement.classList.add('js');
+  var dimg=[].slice.call(document.querySelectorAll('.door img')),phs=[].slice.call(document.querySelectorAll('.ph')),
+      bgs=document.getElementById('bgwrap'),hc=document.querySelector('.hcopy'),cue=document.querySelector('.cue'),tick=false;
+  function frame(){
+    var y=window.pageYOffset,vh=window.innerHeight;
+    if(y<vh*1.3){
+      var t=Math.min(y*.22,vh*.2);
+      dimg.forEach(function(i){i.style.transform='translate3d(0,'+t+'px,0)'});
+      hc.style.transform='translate3d(0,'+(-y*.4)+'px,0)';
+      hc.style.opacity=Math.max(0,1-y/(vh*.5));
+      cue.style.opacity=Math.max(0,1-y/(vh*.18));
+    }
+    var phone=window.innerWidth<=800,jobs=[];
+    phs.forEach(function(el){
+      var r=el.getBoundingClientRect();if(r.bottom<-60||r.top>vh+60)return;
+      var k=Math.max(-1,Math.min(1,(r.top+r.height/2-vh/2)/vh));
+      jobs.push([el.firstElementChild,phone?'translate3d(0,'+(k*r.height*.085)+'px,0) scale(1.2)':'translate3d(0,'+(k*r.height*.07)+'px,0) scale(1.16)']);
+    });
+    jobs.forEach(function(j){j[0].style.transform=j[1]});
+    bgs.style.setProperty('--by',(Math.sin(y/vh*.9)*vh*.045)+'px');
+    tick=false;
+  }
+  window.addEventListener('scroll',function(){if(!tick){tick=true;requestAnimationFrame(frame)}},{passive:true});
+  window.addEventListener('resize',frame);frame();
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+  [].forEach.call(document.querySelectorAll('.row,.ph'),function(r){io.observe(r)});
+}
+
+// viewer
+(function(){
+  var vw=document.getElementById('vw'),track=document.getElementById('vwtrack'),cnt=document.getElementById('vwc'),ttl=document.getElementById('vwt'),dots=document.getElementById('vwd');
+  var cur=0,total=0,last=null;
+  function setInert(on){['main','nav','footer','.skip'].forEach(function(q){var e=document.querySelector(q);if(e){if(on)e.setAttribute('inert','');else e.removeAttribute('inert')}})}
+  function slideW(){return track.clientWidth}
+  function setIdx(i){cur=i;cnt.textContent=(i+1)+' / '+total;[].forEach.call(dots.children,function(d,k){d.classList.toggle('on',k===i)})}
+  function open(btn){
+    var sec=btn.closest('section'),imgs=[].slice.call(sec.querySelectorAll('.ph img')),start=imgs.indexOf(btn.querySelector('img'));
+    var name=sec.querySelector('h2').textContent;
+    ttl.textContent=name;track.innerHTML='';dots.innerHTML='';total=imgs.length;
+    imgs.forEach(function(im,k){var d=document.createElement('div');d.className='vwslide';var x=document.createElement('img');x.src=im.getAttribute('src');x.alt=name+' photo '+(k+1);x.decoding='async';d.appendChild(x);track.appendChild(d);var dot=document.createElement('i');dots.appendChild(dot)});
+    last=document.activeElement;vw.classList.add('open');document.body.classList.add('lock');setInert(true);
+    track.scrollLeft=start*slideW();setIdx(start);
+    requestAnimationFrame(function(){requestAnimationFrame(function(){vw.classList.add('show')})});
+    document.getElementById('vwx').focus();
+  }
+  function close(){vw.classList.remove('show');document.body.classList.remove('lock');setInert(false);setTimeout(function(){vw.classList.remove('open');if(last&&last.focus)last.focus()},250)}
+  function go(d){var i=Math.max(0,Math.min(total-1,cur+d));track.scrollTo({left:i*slideW(),behavior:'smooth'})}
+  [].forEach.call(document.querySelectorAll('.ph'),function(b){b.addEventListener('click',function(){open(b)})});
+  track.addEventListener('scroll',function(){var i=Math.round(track.scrollLeft/slideW());if(i!==cur&&i>=0&&i<total)setIdx(i)},{passive:true});
+  document.getElementById('vwx').onclick=close;
+  document.getElementById('vwp').onclick=function(){go(-1)};document.getElementById('vwn').onclick=function(){go(1)};
+  vw.addEventListener('click',function(e){if(e.target===vw||e.target.classList.contains('vwslide'))close()});
+  addEventListener('keydown',function(e){if(!vw.classList.contains('open'))return;if(e.key==='Escape')close();if(e.key==='Tab'){var fs=[].slice.call(vw.querySelectorAll('button')).filter(function(b){return b.offsetParent});if(fs.length){var f0=fs[0],fl=fs[fs.length-1];if(e.shiftKey&&document.activeElement===f0){e.preventDefault();fl.focus()}else if(!e.shiftKey&&document.activeElement===fl){e.preventDefault();f0.focus()}}}if(e.key==='ArrowLeft')go(-1);if(e.key==='ArrowRight')go(1)});
+})();
+
+// doors: on touch screens, 1st tap opens a door, 2nd tap goes to the section (mouse: hover, click goes)
+(function(){
+  var doors=[].slice.call(document.querySelectorAll('.door')),ptype='mouse';
+  function go(d){var t=document.querySelector(d.getAttribute('href'));if(t)t.scrollIntoView({behavior:still?'auto':'smooth'})}
+  function shut(){doors.forEach(function(x){x.classList.remove('open')})}
+  doors.forEach(function(d){
+    d.addEventListener('pointerdown',function(e){ptype=e.pointerType||'mouse'});
+    d.addEventListener('contextmenu',function(e){e.preventDefault()});
+    d.addEventListener('click',function(e){
+      e.preventDefault();
+      if(ptype==='mouse'){go(d);return}
+      if(d.classList.contains('open')){go(d);setTimeout(shut,900)}
+      else{shut();d.classList.add('open')}
+    });
+  });
+  document.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse'&&!e.target.closest('.door'))shut()});
+})();
+</script>
+
+</body>
+</html>
